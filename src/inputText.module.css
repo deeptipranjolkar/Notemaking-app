@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter&family=Roboto:wght@500&display=swap");
+body {
+  overflow: hidden;
+ 
+}
+.rightside {
+  flex-basis: 75%;
+  background: #f7ecdc;
+}
+
+.upper {
+  position: fixed;
+  width: 1078px;
+  height: 98px;
+  background: #e8e8e8;
+}
+.inUpper {
+  display: flex;
+}
+.roundImage {
+  position: relative;
+  top: 19px;
+  width: 68.901px;
+  height: 68.901px;
+}
+.caps {
+  font-family: Roboto;
+  font-size: 20.115px;
+  position: relative;
+  color: white;
+  top: 45px;
+  left: 47px;
+  z-index: 1;
+}
+.textt {
+  position: relative;
+  top: 40px;
+  left: 20px;
+  font-family: Roboto;
+  letter-spacing: 0.48px;
+  font-weight: 500;
+}
+
+.scroll {
+  position: relative;
+  bottom: 60px;
+  
+}
+.message {
+  position: relative;
+  bottom: 80px;
+  top: 50px;
+}
+
+.message::-webkit-scrollbar {
+  position: absolute;
+}
+
+.textWrap {
+  position: relative;
+  padding-bottom: 30px;
+  top: 463px;
+  height: 245px;
+  background-color: #e8e8e8;
+}
+
+.text_wrap {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 160px;
+  left: 120px;
+  padding-right: 150px;
+}
+.tmsg {
+  line-height: 25px;
+}
+.dataTime {
+  position: relative;
+  bottom: 120px;
+  left: 15px;
+}
+.tBox {
+  position: fixed;
+  top: 450px;
+  right: 20px;
+}
+
+.vector {
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  right: 30px;
+  top: 50px;
+}
+
+.in_chat{
+  border-radius: 9px;
+  border: 1px solid #ccc;
+  width: 980px;
+  height: 211px;
+}
+
+.in_chat::placeholder {
+  color: #9a9a9a;
+  position: absolute;
+  left: 10px;
+  transform: translateY(-10%);
+}
+@media (max-width: 768px) {
+  body {
+    overflow: fixed;
+  }
+
+  .rightside {
+    position: relative;
+    right: 220px;
+  }
+
+  .upper {
+    width: 100%;
+  }
+
+  .roundImage {
+    top: 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .caps {
+    font-size: 16px;
+    top: 30px;
+    left: 20px;
+  }
+
+  .textt {
+    top: 25px;
+    left: 80px;
+    font-size: 18px;
+  }
+
+  .scroll {
+    /* position: relative; */
+    /* bottom: 60px; */
+    overflow: scroll;
+  }
+  .textWrap {
+    top: 700px;
+
+    height: 200px;
+  }
+  .message {
+    display: flex;
+    position: relative;
+    bottom: 80px ;
+    top: 50px   ;
+    width: 390px;
+  }
+
+  .text_wrap {
+    position: fixed;
+    top: 300px;
+    bottom: 140px;
+    left: 20px;
+    padding-right: 20px;
+  }
+
+  .in_chat {
+    width: 371px;
+    height: 122px;
+    position: relative;
+    left: 10px;
+    /* right: 10px; */
+    top: 220px;
+  }
+
+  .vector {
+    width: 21px;
+    height: 17.684px;
+    top: 290px;
+    right: 20px;
+  }
+}
