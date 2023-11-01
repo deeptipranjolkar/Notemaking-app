@@ -1,4 +1,4 @@
-deloy link (https://tranquil-dolphin-22d7f9.netlify.app/)
+deloy link (https://make-a-note-app.netlify.app/)
 
 
 # Getting Started with Create React App
